@@ -1,0 +1,52 @@
+.todoList {
+    margin: 0 auto;
+    max-width: 600px;
+    background: #ff6666;
+    padding: 4rem;
+}
+
+.title {
+    color: white;
+    font-size: 32px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid white;
+
+    span {
+        margin-top: 10px;
+        display: block;
+        font-size: 16px;
+    }
+}
+
+.listItem {
+    padding-top: 10px;
+}
+
+.todoItem {
+    display: flex;
+    margin: 0 -4rem 4px;
+    padding: 1.1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    .handleButton{
+        display: flex;
+        gap: 8px;
+        button{
+            color: #666;
+            border: 1px solid #333;
+            border-radius: 3px;
+        }
+    }
+}   
+.addNewTodo {
+    display: flex;
+    gap: 6px;
+
+    .btn-submit {
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 14px;
+        background-color: white;
+    }
+}
